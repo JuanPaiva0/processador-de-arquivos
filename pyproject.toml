@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "processador de arquivos"
+version = "0.1.0"
+description = ""
+authors = ["Juan Amcis Paiva <juanpaiva887@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.53.0"}
+fastapi = "*"
+docker = "^7.2.0"
+boto3 = "^1.43.95"
+python-dotenv = "^1.2.3"
+celery = "^5.6.3"
+redis = "^8.1.0"
+python-multipart = "^0.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
